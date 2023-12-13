@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+  .wFont {
+    color: #ccc5b9;
+}
+
+::-moz-selection {
+    color: #181716;
+    background: #ED6F3F;
+  }
+  
+  ::selection {
+    color: #181716;
+    background: #ED6F3F;
+  }
+
+
+@font-face {
+    font-family: Fregular;
+    src: url(/fonts/SourceCodePro-Regular.ttf);
+}
+
+@font-face {
+    font-family: Fbold;
+    src: url(/fonts/SourceCodePro-Bold.ttf);
+
+}
+
+@font-face {
+    font-family: Flight;
+    src: url(/fonts/SourceCodePro-Light.ttf);
+}

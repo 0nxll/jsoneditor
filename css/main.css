@@ -1,0 +1,171 @@
+body {
+    background-color: #181716;
+
+    -webkit-tap-highlight-color: transparent;
+
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    scroll-behavior: smooth;
+  
+  
+
+}
+
+.divCont {
+    margin: 2vh 2vw;
+}
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+        .titlePage {
+            color: #ED6F3F;
+            font-family: Fregular;
+            letter-spacing: 2px;
+            margin: 2vh 5vw;
+        }
+        .meSub {
+            color: #ED6F3F;
+            font-family: Flight;
+            font-size: 1rem;
+            letter-spacing: 2px;
+        }
+
+
+
+.mainCont {
+    display: flex;
+    flex-direction: column;
+    /* border: #ED6F3F 1px solid; */
+}
+
+
+
+
+.uploadFileCont {
+    margin: 2vh 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fileChoose {
+
+    font-family: Fregular;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 2vh 2vw;
+
+    background-color: #181716; /* Change this color to your preferred color */
+    color: #ccc5b9;
+    padding: 10px 15px;
+    border: #ED6F3F 1px solid;
+    border-radius: 5px;
+
+}
+
+.fileChoose:hover {
+    background-color: #ED6F3F;
+    border: #181716 1px solid;
+    color: #181716;
+
+}
+
+.fileChoose:active {
+    background-color: #ED6F3F;
+    border: #181716 1px solid;
+}
+
+    #fileChoose {
+
+        display: none;
+    }
+
+    input[type=file]{
+        color:#ccc5b9;
+    }
+
+    input[type=file]::after {
+        color: #ccc5b9;
+        font-size: 1rem;
+    }
+
+
+
+.tooltips {
+    margin: 1vh 5vw;
+}
+
+.tooltips ul {
+    list-style-type: disc;
+    color: #ED6F3F;
+}
+
+.tooltips li {
+    font-family: Fregular;
+}
+
+.tooltips a {
+    text-decoration: none;
+    color: #ED6F3F;
+    font-weight: bold;
+}
+
+.tooltips a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.textAreaDiv {
+    position: relative;
+
+}
+
+.textArea {
+    width: 100%;
+    font-family: Fregular;
+    font-size: 1rem;
+    background-color: #181716;
+    box-sizing: border-box;
+    resize: none;
+    border: #ED6F3F 1px solid;
+    padding: 10px;
+
+}
+
+.textArea:focus {
+    outline: none;
+}
+
+
+
+
+.hideTextArea {
+    margin: 10vh 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.hideTextArea p {
+    font-family: Fbold;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.hideTextArea, .hideTextArea p {
+    display: none;
+}
+

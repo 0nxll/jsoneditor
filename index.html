@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsonEditor</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/other.css">
+    <link rel="stylesheet" type="text/css" href="/css/anim.css">
+
+    <link rel="icon" href="/img/logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+
+<body>
+    
+
+    <section>
+
+        <div class="divCont">
+
+            <div class="title">
+                <h1 class="titlePage animate__animated animate__fadeIn animate__delay-1s">JSON Editor</h1>
+                <h6 class="meSub animate__animated animate__backInLeft anim15">
+                    <span>@jhonlukecutay</span> | 12/13/2023
+                </h6>
+            </div>
+
+            <form class="mainCont" action="" accept-charset="UTF-8">
+        
+                <div class="uploadFileCont">
+
+                    <input type="file" id="fileChoose" name="filename" accept=".json">
+                    <label for="fileChoose" class="fileChoose wFont animate__animated animate__fadeIn animate__delay-2s">Import JSON</label>
+                    <button class="fileChoose animate__animated animate__fadeIn anim25" onclick="saveAsJSON()" type="button">Export JSON</button>
+
+
+
+                </div>
+
+                <div class="tooltips">
+                    <ul>
+                        <li class="animate__animated animate__slideInLeft animate__delay-3s">
+                            <a href="https://www.w3schools.com/js/js_json_intro.asp" target="_blank">What is JSON?</a>
+                        </li>
+                        <li class="animate__animated animate__slideInLeft anim35" >
+                            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON" target="_blank">JSON Manipulation</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="textAreaDiv">
+                    <textarea class="textArea wFont animate__animated animate__fadeIn animate__delay-4s" name="textArea" id="textArea" cols="30" rows="15"></textarea>
+
+                    <div class="hideTextArea wFont"><p>The contents will show here.</p>
+                    </div>
+                </div>
+
+
+            </form>
+
+
+        </div>
+
+
+
+    </section>
+
+
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ajv/8.6.2/ajv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ajv/dist/ajv.min.js"></script>
+</body>
+</html>
